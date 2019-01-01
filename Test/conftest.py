@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
+
 @pytest.fixture(scope="class")
 def setup(request):
     print("initiating chrome driver")
